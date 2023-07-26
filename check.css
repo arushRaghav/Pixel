@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.out{
+    box-sizing: content-box;
+    margin: 100px;
+    margin-left: 500px;
+    height: 800px;
+    width: 800px;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 400px;
+}
