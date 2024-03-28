@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(135,169,34);
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    height: 150px;
+    width: 100vw;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-around;
+}
+
+.text{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    position: relative;
+    top: -50px;
+    color: rgb(17 , 66 , 50);
+  }  
+
+.body{
+    display: flex;
+    width: 100vw;
+}
+.control{
+    height: 700px;
+    width: 400px;
+    margin-left: 250px;
+    margin-top: 40px;
+    background-color: rgb(17 , 66 , 50);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colo{
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.changeInk,.backChange{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    padding-top: 20px;
+    /* border: 1px solid red; */
+}
+
+.tex{
+    background-color: rgb(247,246,187);
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    margin-left: 40px;
+    padding-left: 25px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 34px;
+    font-style: normal;
+}
+
+.backChange .tex{
+    font-size: 28px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.box{
+    width: 600px;
+    height: 600px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border: 4px solid rgb(17 , 66 , 50);
+    margin-top: 60px;
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
