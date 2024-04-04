@@ -45,6 +45,8 @@
     border-radius: 30px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    opacity: 0%;
 }
 
 .colo{
@@ -93,5 +95,13 @@
     margin-left: 300px;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    opacity: 0%;
 }
 
+.animate{
+    transition: all 3s cubic-bezier(0.5,-1,0.5,2);
+    opacity: 100%;
+    transform: translate(300px,0px);
+    transition-duration: 2s;
+}

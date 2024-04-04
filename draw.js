@@ -11,7 +11,7 @@ function gen(size , colo ){
         nd.style.height = `${600/size}px`;
         nd.style.width = `${600/size}px`;
         nd.style.backgroundColor = colo;
-        nd.classList.add('content');
+        // nd.classList.add('content');
         bo.appendChild(nd);
     }
 }
@@ -55,3 +55,12 @@ gen(currSize,currBack);
 drawing(currInk);
 changingColor();
 changeBackground();
+
+window.addEventListener('load',()=>{
+    let coo = document.body.getElementsByClassName('control')[0];
+    let boo = document.body.getElementsByClassName('box')[0];
+    coo.style.left = (coo.style.left - 300) + "px";
+    coo.classList.add('animate');
+    boo.style.left = (boo.style.left - 300) + "px";
+    boo.classList.add('animate');
+});
