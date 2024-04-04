@@ -19,7 +19,7 @@
     
 <div class = "container">
 <div class="head" >
-    <div class="text">Pixel Art</div>
+    <div class="text">Pixel <span class="auto">Art</span></div>
 </div>
 <div class="body">
     <div class="control">
@@ -37,5 +37,15 @@
 
 </div>
 
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+    var typed = new Typed(".auto",{
+        strings : ["Art","Designer"],
+        typeSpeed : 150,
+        backSpeed : 150,
+        loop : 150
+    });
+</script>
 </body>
 </html>
